@@ -44,7 +44,7 @@ export default function Footer() {
 			<div className="w-full flex items-center justify-center py-40">
 				<Button title="enroll now" />
 			</div>
-			<div className="w-full flex items-center justify-between py-5">
+			{/* <div className="w-full flex items-center justify-between py-5">
 				<div className="flex items-center gap-1">
 					<h1 className="text-[18px] uppercase leading-tight font-helveticaNeue text-white">
 						Site by
@@ -65,7 +65,7 @@ export default function Footer() {
 						EURECAH
 					</Link>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }

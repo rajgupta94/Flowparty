@@ -13,11 +13,11 @@ export default function Navbar() {
 					width={180}
 					height={180}
 				/>
-				<Link
+				{/* <Link
 					href="/"
 					className="text-sm uppercase text-white font-medium tracking-tight leading-tight font-helveticaNeue">
 					By Eurecah
-				</Link>
+				</Link> */}
 			</div>
 			<div>
 				<Menu />
