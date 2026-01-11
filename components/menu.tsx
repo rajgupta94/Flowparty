@@ -42,7 +42,7 @@ export default function Menu() {
 			</div>
 			<div
 				onClick={() => setHidden(!hidden)}
-				className="relative cursor-pointer">
+				className=class="cursor-pointer opacity-50 hover:opacity-100 transition-all duration-200 ease-linear hover:-translate-y-2 z-50">
 				<Image
 					src={menuDrop}
 					alt="menuDrop"
