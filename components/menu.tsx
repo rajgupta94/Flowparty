@@ -42,7 +42,7 @@ export default function Menu() {
 			</div>
 			<div
 				onClick={() => setHidden(!hidden)}
-				className=class="cursor-pointer opacity-50 hover:opacity-100 transition-all duration-200 ease-linear hover:-translate-y-2 z-50">
+				className="relative cursor-pointer opacity-50 hover:opacity-100 transition-all duration-200 ease-linear hover:-translate-y-2 z-50">
 				<Image
 					src={menuDrop}
 					alt="menuDrop"
@@ -56,19 +56,16 @@ export default function Menu() {
 						onClick={() => setHidden(!hidden)}
 						className="cursor-pointer">
 						<div
-							className={`w-[28px] h-[2px] transition ease-in duration-150  bg-black/50 ${
-								!hidden ? "rotate-45 mb-0  translate-y-[1px]" : "rotate-0 mb-1"
-							} `}
+							className={`w-[28px] h-[2px] transition ease-in duration-150  bg-black/50 ${!hidden ? "rotate-45 mb-0  translate-y-[1px]" : "rotate-0 mb-1"
+								} `}
 						/>
 						<div
-							className={`w-[28px] h-[2px] transition ease-in duration-150 bg-black/50 ${
-								!hidden ? "hidden mb-0" : "mb-1"
-							} `}
+							className={`w-[28px] h-[2px] transition ease-in duration-150 bg-black/50 ${!hidden ? "hidden mb-0" : "mb-1"
+								} `}
 						/>
 						<div
-							className={`w-[28px] h-[2px] transition ease-in duration-150 bg-black/50  ${
-								!hidden ? "-rotate-45 mb-0" : "rotate-0"
-							}`}
+							className={`w-[28px] h-[2px] transition ease-in duration-150 bg-black/50  ${!hidden ? "-rotate-45 mb-0" : "rotate-0"
+								}`}
 						/>
 					</button>
 				</div>
